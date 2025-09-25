@@ -43,7 +43,7 @@ def create_doc(row, folder_path):
                 print(e)
                 doc.add_paragraph(f"{column.display_name}: {row[column.name]}")
 
-    doc.save(f"{folder_path}/{row['num']}.docx")
+    doc.save(f"{folder_path}/{row['id']}.docx")
 
 
 def create_doc_with_table(df, folder_path):
@@ -55,7 +55,6 @@ def create_doc_with_table(df, folder_path):
     """
     doc = Document()
     doc.add_heading(TITLE, 0)
-
     table = doc.add_table(rows=1, cols=len(COLUMNS))
     table.style = 'Table Grid'
 

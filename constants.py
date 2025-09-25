@@ -17,12 +17,14 @@ class ColumnType(Enum):
     IMAGE = "image"
 
 # Define the column that contains the unique identifier for each document
-ID_COL = "num"
+ID_COL = "id"
 
 # Define the columns in the data
 COLUMNS = [
-    Column("block/payment_phone.text1", "שם", "string"),
-    Column("sign", "חתימה", "image")
+    Column("name", "שם", "string"),
+    Column("amount", "סכום", "string"),
+    Column("id", "תעודת זהות", "string"),
+    Column("sign", "חתימה", "image"),
 ]
 
 TITLE = "חתימת נבדק"  # Title of the document
