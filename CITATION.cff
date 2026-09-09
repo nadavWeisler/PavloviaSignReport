@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: PavloviaSignReport
+version: 0.1.0
+date-released: "2026-04-16"
+license: MIT
+repository-code: "https://github.com/nadavWeisler/PavloviaSignReport"
+abstract: >-
+  A Python command-line tool that automatically generates participant
+  report Word documents from Pavlovia CSV data exports. Supports
+  configurable text and base64-image columns, per-participant documents,
+  and a combined summary table.
+authors:
+  - family-names: Weisler
+    given-names: Nadav
+    github: nadavWeisler
+keywords:
+  - python
+  - pavlovia
+  - psychopy
+  - behavioral research
+  - document generation
+  - report generation

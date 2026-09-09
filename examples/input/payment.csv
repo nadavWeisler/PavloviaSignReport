@@ -1,0 +1,4 @@
+num,block/payment,block/payment_phone.text1,block/payment_phone.text2,sign,date,paid,email,know,late_prac
+1,Item 1,5550100101,Alex Rivera,"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAACklEQVR4nGMAAQAABQABDQottAAAAABJRU5ErkJggg==",1\10,A,alex.rivera@example.com,0,0
+2,Item 2,5550100202,Jordan Hale,"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAACklEQVR4nGMAAQAABQABDQottAAAAABJRU5ErkJggg==",2\10,A-,jordan.hale@example.com,1,0
+3,Item 1,5550100303,Samira Cole,"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAACklEQVR4nGMAAQAABQABDQottAAAAABJRU5ErkJggg==",3\11,A,samira.cole@example.com,0,1

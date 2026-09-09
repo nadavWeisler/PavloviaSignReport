@@ -1,0 +1,36 @@
+{
+  "document": {
+    "title": "Participant Report",
+    "summary_filename": "participants-summary.docx",
+    "output_filename_template": "participant-{safe_id}.docx",
+    "document_intro": "Thank you {name} for participating.",
+    "image_width": 4,
+    "image_height": 3,
+    "table_image_width": 1.5,
+    "table_image_height": 1.5
+  },
+  "columns": [
+    {
+      "name": "name",
+      "display_name": "Participant Name",
+      "type": "string"
+    },
+    {
+      "name": "amount",
+      "display_name": "Amount",
+      "type": "number"
+    },
+    {
+      "name": "isComplete",
+      "display_name": "Completed",
+      "type": "boolean",
+      "true_text": "Complete",
+      "false_text": "Incomplete"
+    },
+    {
+      "name": "sign",
+      "display_name": "Signature",
+      "type": "image"
+    }
+  ]
+}
