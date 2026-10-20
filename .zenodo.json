@@ -1,0 +1,28 @@
+{
+  "title": "PavloviaSignReport",
+  "upload_type": "software",
+  "description": "PavloviaSignReport is a Python package and command-line tool for creating participant report documents from Pavlovia CSV exports. It reads configurable CSV columns and generates one .docx file per participant and one summary .docx table across all rows. It is designed for research workflows that need fast, repeatable report generation from online experiment data.",
+  "creators": [
+    {
+      "name": "Weisler, Nadav",
+      "orcid": "0009-0001-2729-5422",
+      "affiliation": "Shalvata Mental Health Center; The Hebrew University of Jerusalem"
+    }
+  ],
+  "license": "mit",
+  "keywords": [
+    "python",
+    "pavlovia",
+    "psychopy",
+    "behavioral research",
+    "document generation",
+    "report generation"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nadavWeisler/PavloviaSignReport",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

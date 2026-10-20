@@ -6,6 +6,7 @@ version: 0.1.0
 date-released: "2026-04-16"
 license: MIT
 repository-code: "https://github.com/nadavWeisler/PavloviaSignReport"
+# The Zenodo concept DOI gets added after the first release.
 abstract: >-
   A Python command-line tool that automatically generates participant
   report Word documents from Pavlovia CSV data exports. Supports
@@ -14,6 +15,8 @@ abstract: >-
 authors:
   - family-names: Weisler
     given-names: Nadav
+    orcid: "https://orcid.org/0009-0001-2729-5422"
+    affiliation: "Shalvata Mental Health Center; The Hebrew University of Jerusalem"
     github: nadavWeisler
 keywords:
   - python
